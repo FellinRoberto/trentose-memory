@@ -19,4 +19,4 @@ function generateData(num){
   return shuffle(list);  
 }
 
-var data = generateData(10);
+var data = generateData(3);
