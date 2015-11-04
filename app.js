@@ -8,6 +8,7 @@
 $(document).ready(function(){
     
     var index=1;
+
     for(var i=0;i<data.length;i++){
         $(".cards").append(" <li id=\""+data[i]+"\" class=\"done\">"+
                 "<h3>"+data[i]+"</h3>"+
